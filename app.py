@@ -17,7 +17,7 @@ from src.providers import has_credentials
 
 
 SAMPLE_MODELS = [
-    "groq/llama-3.1-70b-versatile",
+    "groq/llama-3.3-70b-versatile",
     "groq/llama-3.1-8b-instant",
     "openai/gpt-4o-mini",
     "anthropic/claude-3-5-haiku-latest",
@@ -149,7 +149,7 @@ with gr.Blocks(title="Agent Eval Harness") as demo:
             with gr.Column():
                 model = gr.Dropdown(
                     SAMPLE_MODELS,
-                    value="groq/llama-3.1-70b-versatile",
+                    value="groq/llama-3.3-70b-versatile",
                     label="Model under test",
                     allow_custom_value=True,
                 )
@@ -178,7 +178,7 @@ with gr.Blocks(title="Agent Eval Harness") as demo:
         with gr.Row():
             model_a = gr.Dropdown(
                 SAMPLE_MODELS,
-                value="groq/llama-3.1-70b-versatile",
+                value="groq/llama-3.3-70b-versatile",
                 label="Model A",
                 allow_custom_value=True,
             )

@@ -16,7 +16,7 @@ from src import EvalHarness, LLMJudge
 
 def main() -> None:
     harness = EvalHarness(
-        model="groq/llama-3.1-70b-versatile",
+        model="groq/llama-3.3-70b-versatile",
         dataset=str(ROOT / "datasets" / "example_qa.jsonl"),
         judge=LLMJudge(model="groq/llama-3.1-8b-instant"),
     )

@@ -11,7 +11,7 @@ from src import ABCompare, LLMJudge
 
 def main() -> None:
     ab = ABCompare(
-        model_a="groq/llama-3.1-70b-versatile",
+        model_a="groq/llama-3.3-70b-versatile",
         model_b="groq/llama-3.1-8b-instant",
         dataset=str(ROOT / "datasets" / "example_qa.jsonl"),
         judge=LLMJudge(model="groq/llama-3.1-8b-instant"),

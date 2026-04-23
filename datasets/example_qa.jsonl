@@ -1,0 +1,15 @@
+{"input": "What is the capital of France?", "expected": "Paris", "tags": ["geography", "easy"], "lang": "en"}
+{"input": "Who wrote the novel '1984'?", "expected": "George Orwell", "tags": ["literature"], "lang": "en"}
+{"input": "What is the boiling point of water at sea level in Celsius?", "expected": "100 degrees Celsius", "tags": ["science", "easy"], "lang": "en"}
+{"input": "In what year did the Berlin Wall fall?", "expected": "1989", "tags": ["history"], "lang": "en"}
+{"input": "What does 'CPU' stand for?", "expected": "Central Processing Unit", "tags": ["tech", "easy"], "lang": "en"}
+{"input": "What is the chemical symbol for gold?", "expected": "Au", "tags": ["science"], "lang": "en"}
+{"input": "Which planet is known as the Red Planet?", "expected": "Mars", "tags": ["science", "easy"], "lang": "en"}
+{"input": "Who painted the Mona Lisa?", "expected": "Leonardo da Vinci", "tags": ["art"], "lang": "en"}
+{"input": "What is the speed of light in a vacuum, approximately in meters per second?", "expected": "approximately 299,792,458 m/s, or about 3 x 10^8 m/s", "tags": ["science", "hard"], "lang": "en"}
+{"input": "Name the author of 'Pride and Prejudice'.", "expected": "Jane Austen", "tags": ["literature"], "lang": "en"}
+{"input": "What is the primary function of the mitochondria in a cell?", "expected": "To produce energy (ATP) through cellular respiration; often called the powerhouse of the cell.", "tags": ["biology"], "lang": "en"}
+{"input": "What is 2 + 2?", "expected": "4", "tags": ["math", "easy"], "lang": "en"}
+{"input": "Which gas makes up most of Earth's atmosphere?", "expected": "Nitrogen (about 78%)", "tags": ["science"], "lang": "en"}
+{"input": "Who developed the theory of general relativity?", "expected": "Albert Einstein", "tags": ["science", "history"], "lang": "en"}
+{"input": "What is the largest ocean on Earth?", "expected": "The Pacific Ocean", "tags": ["geography", "easy"], "lang": "en"}

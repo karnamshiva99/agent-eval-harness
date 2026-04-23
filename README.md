@@ -1,10 +1,23 @@
+---
+title: Agent Eval Harness
+emoji: 🎯
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: 4.44.1
+app_file: app.py
+pinned: false
+license: mit
+short_description: Eval harness for LLM agents — A/B + regression gates
+---
+
 # Agent Eval Harness
 
 > **A production-grade evaluation harness for LLM agents — the layer you build before you ship a model to real users.**
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![HF Spaces Demo](https://img.shields.io/badge/🤗-Try%20on%20HF%20Spaces-yellow)](https://huggingface.co/spaces/karnamshiva/agent-eval-harness)
+[![HF Spaces Demo](https://img.shields.io/badge/🤗-Try%20on%20HF%20Spaces-yellow)](https://huggingface.co/spaces/shiva585/agent-eval-harness)
 
 ## Why this exists
 
@@ -25,7 +38,7 @@ After leaving, I kept seeing small teams ship LLM agents with basically no eval 
 ## Quickstart
 
 ```bash
-git clone https://github.com/karnamshiva/agent-eval-harness
+git clone https://github.com/karnamshiva99/agent-eval-harness
 cd agent-eval-harness
 pip install -r requirements.txt
 
